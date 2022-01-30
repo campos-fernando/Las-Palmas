@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image:url('images/00birraderes.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+
+
+ 
+   
+.back{
+    background-color: rgba(0, 0, 0, 0.596) ; 
+    width:800px;
+     height:400px; 
+     position: absolute; 
+     left: 267px;
+     top:150px;
+}
+
+.palm{
+    position:absolute; 
+    left: 23%;
+     top:40%;
+}
+
+
+
+
+    
+
+li{
+    color: transparent;
+    display: inline;
+   
+}
+
+.a{
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: rgba(0, 0, 0, 0.589);
+    padding-left: 20px;
+}
+
+nav{
+    max-height: 50px;
+    width: 100%;
+    position:absolute;
+}
+a:hover{
+    color: rgba(92, 22, 22, 0.514);
+text-decoration: none;
+}
+
+.f{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: rgba(0, 0, 0, 0.699);
+    position: absolute;
+    left:1100px;
+  
+
+    padding-top: 5px;
+
+}
+
+.p{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: rgba(0, 0, 0, 0.699);
+    position: absolute;
+    left:1200px; 
+    padding-top: 5px;
+  
+
+}
+
