@@ -11,8 +11,16 @@ body{
 
 }
 
+div#vacio{
+    width: 100%;
+    height: 700px;
+}
 
-
+div#contenedor{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+}
  
    
 .back{
@@ -26,8 +34,8 @@ body{
 
 .palm{
     position:absolute; 
-    left: 23%;
-     top:40%;
+    left: 5%;
+     top:30%;
 }
 
 
@@ -46,7 +54,7 @@ li{
     font-size: 3rem;
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif ;
-    color: rgba(0, 0, 0, 0.589);
+    color: rgba(27, 27, 27, 0.993);
     padding-left: 20px;
 }
 
@@ -54,6 +62,7 @@ nav{
     max-height: 50px;
     width: 100%;
     position:absolute;
+    background-color: rgba(255, 255, 255, 0.781);
 }
 a:hover{
     color: rgba(92, 22, 22, 0.514);
@@ -65,11 +74,10 @@ text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif ;
-    color: rgba(0, 0, 0, 0.699);
+    color:rgba(27, 27, 27, 0.993);
     position: absolute;
     left:1100px;
-  
-
+    margin-top: 10px;
     padding-top: 5px;
 
 }
@@ -79,11 +87,16 @@ text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif ;
-    color: rgba(0, 0, 0, 0.699);
+    color:rgba(27, 27, 27, 0.993);
     position: absolute;
     left:1200px; 
     padding-top: 5px;
+    margin-top: 10px;
   
 
 }
 
+#nose{
+    color: rgb(206, 149, 43);
+    text-align: center;
+}
