@@ -1,124 +1,160 @@
 *{
     margin: 0px;
     padding: 0px;
+    border: 0cm;
 }
 
 body{
     background-image:url('images/00birraderes.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: static;
     background-size: 100%;
+    max-width: 100%;
 
 }
 
-div#vacio{
-    width: 100%;
-    height: 700px;
+#contenedor{
+    max-width: 100%;
+    height: 900px;
+    align-items:center;
 }
 
-div#contenedor{
-    width: 100%;
-    height: 1000px;
-    background-color: white;
+.centrado{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
 }
  
-   
-.back{
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.596) ; 
-    width:800px;
-     height:400px; 
-     position: absolute; 
-     left: 267px;
-     top:150px;
-     flex-grow: 0;
-     flex-shrink: 0;
-     align-items: center;
-    justify-content: center;
-}
+
+
 
 .palm{
-    position:absolute; 
-    left: 5%;
-     top:30%;
-}
-
-
-
-
+   display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  margin-top:200px;
+   justify-content:space-around;
+    padding: 2rem 0.5rem 2rem 0.5rem;
     
+     background-color: rgba(0, 0, 0, 0.596) ; 
+   
+    
+    
+}
+/* finaliza intro de la página*/
 
-li{
-    color: transparent;
-    display: inline;
+
+/*solo nav y estilos de esta*/
+
+    li{
+        list-style: none;
+    }
+
+
+body>nav>ul{
+   display:flex;
+   align-items:center;
+   justify-content:space-between;
    
 }
 
-.a{
-    text-decoration: none;
-    font-size: 3rem;
-    font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif ;
-    color: rgba(27, 27, 27, 0.993);
-    padding-left: 20px;
+.distac{
+    margin-left: 800px;
 }
 
+body>nav>ul>li{
+    
+    margin-right:20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(32, 30, 30);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.1rem;
+}
+
+
+body>nav>ul>li>a{
+    text-decoration: none;
+    color: rgb(32, 30, 30);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+    
+
+
 nav{
+    padding: 5px;
     max-height: 50px;
     width: 100%;
     position:absolute;
-    background-color: rgba(255, 255, 255, 0.781);
+    background-color: rgba(255, 255, 255, 0.514);
+
 }
 a:hover{
-    color: rgba(92, 22, 22, 0.514);
+    color: rgb(189, 103, 22);
 text-decoration: none;
 }
 
-.f{
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif ;
-    color:rgba(27, 27, 27, 0.993);
-    position: absolute;
-    left:1100px;
-    margin-top: 10px;
-    padding-top: 5px;
+/*solo nav y estilos de esta*/
 
-}
-
-.p{
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif ;
-    color:rgba(27, 27, 27, 0.993);
-    position: absolute;
-    left:1200px; 
-    padding-top: 5px;
-    margin-top: 10px;
-  
-
-}
-
-#nose{
-    color: rgb(206, 149, 43);
-
-    font-family: Arial;
-}
-
-
-#nos{
-    color: rgb(206, 149, 43);
-
-    font-family: Arial;
-
-}
-
-.cont{
+.o{
     display: flex;
-    align-items:initial;
-    justify-content: center;
-    flex-grow: 0;
-    flex-shrink: 0;
+    align-items: center;
+    justify-content:center;
+    font-weight: bold;
+    font-family:cursive;
+    color: rgb(255, 187, 0);
+    margin-bottom: 20px;
+    font-size: 1.3rem;
 }
+
+.l{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-weight: bold;
+    font-family:cursive;
+    color: rgb(255, 187, 0);
+margin-top: 20px;
+font-size: 1.3rem;
+
+}
+
+/*estilos de menú*/
+
+article{
+    
+    background-image: url('images/bc\ madera.jpg');
+    background-repeat: no-repeat;
+    background-attachment: static;
+    background-size: 100%;
+    max-width: 100%;
+    height:750px;
+
+
+}
+
+
+/*Menú y características*/
+
+.centrar{
+    display: flex;
+    align-items: space-around;
+    justify-content: center;
+    padding-top: 5rem;
+    margin-top: 0px;
+}
+
+.titular{
+    color: rgb(255, 187, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    margin-top: 20px;
+
+}
+
+/*grid para la página*/
+
