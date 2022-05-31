@@ -1,20 +1,92 @@
+/*icicio configuración general*/
+
 *{
     margin: 0px;
     padding: 0px;
     border: 0cm;
 }
 
+/*fin configuración general*/
+
+/*estilos barra navegación*/
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+
+nav ul{
+    display: flex;
+align-items: center;
+justify-content:space-around ;
+
+padding:10px;
+}
+
+nav ul li:nth-child(2){
+    margin-right: 80px;
+}
+
+
+nav{
+    width: 100%;
+    position:fixed;
+    background-color: rgba(255, 255, 255, 0.642);
+}
+
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+/*estilos barra navegación fin*/
+
+
+
+
+/*config de los articulos*/
+
+article{
+    height: 674px;
+    background-image: url('images/bc madera.jpg');
+}
+
+/*fin config articulos*/
+
+/*config de fonfo inicio*/
 #fondoi{
     background-image:url('images/00birraderes.jpg');
     background-repeat: no-repeat;
-    background-attachment: static;
+    background-attachment: fixed;
     background-size: 100%;
     max-width: 100%;
-    background-position: fixed;
+    
 
 }
 
-.contenedor{
+
+
+div .contenedor{
+  display: flex;
     width:100%;
-    height: 100%;
+align-items: center;
+justify-content: center;
 }
+
+#fon{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: rgba(0, 0, 0, 0.532);
+}
+
+
+
+/*fin config fonfo inicio*/
