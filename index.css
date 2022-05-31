@@ -153,9 +153,9 @@ div .contenedor{
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.601);
-    padding: 3rem 0.5rem 3rem 0.5rem;
+    padding: 4rem 0.5rem 4rem 0.5rem;
 gap: 1rem;
-width:50rem ;
+
 }
 
 
@@ -190,7 +190,7 @@ article div div div p{
 }
 
 .imgp{
-    width:40%;
+    width:50%;
 }
 
 @media(min-width:1024.1px) {
