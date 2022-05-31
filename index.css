@@ -69,11 +69,14 @@ article{
 
 }
 
-
+div{
+    display: inline-block;
+}
 
 div .contenedor{
-  display: flex;
+  display: inline-block;
     width:100%;
+    max-height: 674px;
 align-items: center;
 justify-content: center;
 }
