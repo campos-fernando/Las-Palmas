@@ -85,6 +85,7 @@ article{
     height: 270px;
     background-image: url('images/bc madera.jpg');
     background-attachment: fixed;
+    
 }
 
 /*config de los articulos*/
@@ -95,6 +96,7 @@ article{
     height: 674px;
     background-image: url('images/bc madera.jpg');
 background-attachment: fixed;
+padding: 1rem;
 }
 }
 /*fin config articulos*/
@@ -149,6 +151,22 @@ div .contenedor{
   }
 }
 
+
+#fon{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.601);
+    padding: 3.8rem 0.5rem 3.8rem 0.5rem;
+gap: 1rem;
+
+}
+
+
+@media (min-width:1024.1px) {
+    
+
 #fon{
     display:flex;
     flex-direction: column;
@@ -159,7 +177,7 @@ div .contenedor{
 gap: 1rem;
 
 }
-
+}
 
 @media(min-width:1024.1px){
 #fon{
@@ -234,7 +252,7 @@ article h2{
 
 .ttl{
     height: 100%;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 article p{
@@ -250,8 +268,6 @@ main{
 
 }
 
- article{
-     padding: 1rem;
- }
+ 
 
 /*FIN MENU*/
